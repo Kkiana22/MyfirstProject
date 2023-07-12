@@ -12,10 +12,11 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            Text("This is a picture I took.")
+            Text("This is a picture I took!")
                 .font(.title)
                 .fontWeight(.light)
                 .foregroundColor(Color.blue)
+            
             
             Image("Flowers")
                 .resizable(resizingMode: .stretch)
